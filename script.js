@@ -2,7 +2,7 @@ const d = document;
 
 d.addEventListener('DOMContentLoaded', e => {
     const $countdown = d.getElementById("countdown"),
-        countdownDate = new Date("Dec 25 2021 00:00:00").getTime(),
+        countdownDate = new Date("Dec 24 2021 18:32:00").getTime(),
         $alarm = d.createElement("audio"),
         $btnAlarma = d.getElementById("btn-alarm");
 
